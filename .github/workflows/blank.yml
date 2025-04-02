@@ -33,19 +33,36 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh repo list usanjay05 --json name -q '.[].name' > repos.txt
+          total_repos=$(wc -l < repos.txt)
+          echo "TOTAL_REPOS=$total_repos" >> $GITHUB_ENV
 
       - name: Count lines in each repository
         run: |
-          echo "# Repository Line Counts" > repo-line-counts.md
+          total_project_lines=0  # Initialize total line count
+          timestamp=$(date +"%Y-%m-%d %H:%M:%S")
+          
+          echo "# 📊 Repository Line Counts" > repo-line-counts.md
+          echo "🕒 **Generated on:** \`$timestamp\`" >> repo-line-counts.md
+          echo "" >> repo-line-counts.md
+          echo "## 🔹 **Total Repositories:** \`${TOTAL_REPOS}\`" >> repo-line-counts.md
+          echo "" >> repo-line-counts.md
+          echo "| Repository | Lines of Code |" >> repo-line-counts.md
+          echo "|------------|--------------|" >> repo-line-counts.md
+
           while IFS= read -r repo; do
               echo "Processing $repo..."
               git clone --depth 1 "https://github.com/usanjay05/$repo.git"
               cd "$repo"
-              total_lines=$(git ls-files | xargs wc -l | tail -n 1)
-              echo "$repo: $total_lines" >> ../repo-line-counts.md
+              repo_lines=$(git ls-files | xargs wc -l | tail -n 1 | awk '{print $1}')
+              total_project_lines=$((total_project_lines + repo_lines))
+              echo "| \`$repo\` | **$repo_lines** |" >> ../repo-line-counts.md
               cd ..
               rm -rf "$repo"
           done < repos.txt
+
+          # Append total count at the bottom
+          echo "" >> repo-line-counts.md
+          echo "## 🏆 **Total Lines Across All Repositories:** \`$total_project_lines\`" >> repo-line-counts.md
 
       - name: Commit and Push Updated Line Counts
         env:
@@ -54,6 +71,6 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add repo-line-counts.md
-          git commit -m "Updated repository line counts"
+          git commit -m "Updated repository line counts - $(date +'%Y-%m-%d %H:%M:%S')"
           git push https://x-access-token:${GH_TOKEN}@github.com/usanjay05/workflows.git main
         continue-on-error: true
