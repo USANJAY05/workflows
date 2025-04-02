@@ -67,7 +67,7 @@ jobs:
           done < repos.txt
 
           # Append total count at the bottom
-          echo "" >> repo-line-counts.md
+          echo "" >> README.md
           echo "## 🏆 **Total Lines Across All Repositories:** \`$total_project_lines\`" >> repo-line-counts.md
 
       - name: Commit and Push Updated Line Counts
