@@ -1,0 +1,52 @@
+name: Count Lines in All Repos
+
+on:
+  schedule:
+    - cron: "0 0 * * 1" # Runs every Monday at midnight UTC
+  workflow_dispatch: # Allows manual trigger
+
+jobs:
+  count-lines:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout the repo
+        uses: actions/checkout@v4
+
+      - name: Install GitHub CLI
+        run: |
+          sudo apt update
+          sudo apt install -y gh
+
+      - name: Authenticate GitHub CLI
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh auth status
+
+      - name: Fetch all repositories
+        id: fetch-repos
+        run: |
+          repos=$(gh repo list usanjay05 --json name -q '.[].name')
+          echo "REPOS=$repos" >> $GITHUB_ENV
+
+      - name: Count lines in each repository
+        run: |
+          echo "# Repository Line Counts" > repo-line-counts.md
+          for repo in $REPOS; do
+              echo "Processing $repo..."
+              git clone --depth 1 "https://github.com/usanjay05/$repo.git"
+              cd "$repo"
+              total_lines=$(git ls-files | xargs wc -l | tail -n 1)
+              echo "$repo: $total_lines" >> ../repo-line-counts.md
+              cd ..
+              rm -rf "$repo"
+          done
+
+      - name: Commit and Push Updated Line Counts
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add repo-line-counts.md
+          git commit -m "Updated repository line counts"
+          git push
+        continue-on-error: true
