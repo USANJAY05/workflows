@@ -53,7 +53,13 @@ jobs:
               echo "Processing $repo..."
               git clone --depth 1 "https://github.com/usanjay05/$repo.git"
               cd "$repo"
-              repo_lines=$(git ls-files | xargs wc -l | tail -n 1 | awk '{print $1}')
+
+              # ✅ Count lines in relevant source files only
+              repo_lines=$(find . -type f \( -name "*.sh" -o -name "*.py" -o -name "*.js" -o -name "*.ts" -o -name "*.css" -o -name "*.html" -o -name "*.md" \) -exec cat {} + | wc -l)
+
+              # Handle empty repo case
+              if [[ -z "$repo_lines" || "$repo_lines" -eq 0 ]]; then repo_lines=0; fi
+
               total_project_lines=$((total_project_lines + repo_lines))
               echo "| \`$repo\` | **$repo_lines** |" >> ../repo-line-counts.md
               cd ..
