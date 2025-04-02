@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout the repo
+      - name: Checkout this repository
         uses: actions/checkout@v4
 
       - name: Install GitHub CLI
@@ -25,15 +25,14 @@ jobs:
 
       - name: Fetch all repositories
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # ✅ Fix authentication issue
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          repos=$(gh repo list usanjay05 --json name -q '.[].name')
-          echo "REPOS=$repos" >> $GITHUB_ENV
+          gh repo list usanjay05 --json name -q '.[].name' > repos.txt
 
       - name: Count lines in each repository
         run: |
           echo "# Repository Line Counts" > repo-line-counts.md
-          for repo in $REPOS; do
+          while IFS= read -r repo; do
               echo "Processing $repo..."
               git clone --depth 1 "https://github.com/usanjay05/$repo.git"
               cd "$repo"
@@ -41,7 +40,7 @@ jobs:
               echo "$repo: $total_lines" >> ../repo-line-counts.md
               cd ..
               rm -rf "$repo"
-          done
+          done < repos.txt
 
       - name: Commit and Push Updated Line Counts
         run: |
