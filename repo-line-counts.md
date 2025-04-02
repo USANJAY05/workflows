@@ -1,31 +1,31 @@
 # 📊 Repository Line Counts
-🕒 **Generated on:** `2025-04-02 17:39:17`
+🕒 **Generated on:** `2025-04-02 17:44:51`
 
 ## 🔹 **Total Repositories:** `22`
 
 | Repository | Lines of Code |
 |------------|--------------|
-| `workflows` | **99** |
-| `ai-terminal` | **222** |
-| `CGemini` | **44807** |
-| `focusTube` | **2595** |
-| `notes-app` | **11925** |
-| `My_Potfolio` | **56485** |
-| `chattify` | **9161** |
-| `contact-app` | **19764** |
-| `Agent-M-Frontend` | **21704** |
-| `police-hackathon` | **2985** |
-| `react-to-do-list` | **18895** |
-| `handCricketGame` | **20651** |
+| `workflows` | **31** |
+| `ai-terminal` | **174** |
+| `CGemini` | **248** |
+| `focusTube` | **666** |
+| `notes-app` | **351** |
+| `My_Potfolio` | **1167** |
+| `chattify` | **221** |
+| `contact-app` | **1045** |
+| `Agent-M-Frontend` | **278** |
+| `police-hackathon` | **2721** |
+| `react-to-do-list` | **322** |
+| `handCricketGame` | **539** |
 | `USANJAY05` | **18** |
 | `Notes` | **303** |
-| `jbbmo-Introduction-to-Git-and-GitHub` | **597** |
-| `github-final-project` | **235** |
-| `SkillrackReplicate` | **3920** |
+| `jbbmo-Introduction-to-Git-and-GitHub` | **253** |
+| `github-final-project` | **34** |
+| `SkillrackReplicate` | **2025** |
 | `Assessment4` | **51** |
 | `Assessment3` | **175** |
-| `new.io` | **12307** |
-| `graded_assignment_2` | **146** |
+| `new.io` | **1220** |
+| `graded_assignment_2` | **103** |
 | `handCricket_Game` | **128** |
 
-## 🏆 **Total Lines Across All Repositories:** `227173`
+## 🏆 **Total Lines Across All Repositories:** `12073`
