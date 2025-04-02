@@ -24,7 +24,8 @@ jobs:
         run: gh auth status
 
       - name: Fetch all repositories
-        id: fetch-repos
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # ✅ Fix authentication issue
         run: |
           repos=$(gh repo list usanjay05 --json name -q '.[].name')
           echo "REPOS=$repos" >> $GITHUB_ENV
