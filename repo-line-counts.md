@@ -1,0 +1,23 @@
+# Repository Line Counts
+workflows:   59 total
+ai-terminal:  222 total
+CGemini:   44807 total
+focusTube:   2595 total
+notes-app:  11925 total
+My_Potfolio:    56485 total
+chattify:   9161 total
+contact-app:  19764 total
+Agent-M-Frontend:   21704 total
+police-hackathon:   2985 total
+react-to-do-list:  18895 total
+handCricketGame:   20651 total
+USANJAY05: 18 README.md
+Notes:  303 total
+jbbmo-Introduction-to-Git-and-GitHub:   597 total
+github-final-project:   235 total
+SkillrackReplicate:   3920 total
+Assessment4:   51 total
+Assessment3:  175 total
+new.io:   12307 total
+graded_assignment_2:  146 total
+handCricket_Game:   128 total
