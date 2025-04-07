@@ -1,13 +1,13 @@
 # 📊 Repository Line Counts
-🕒 **Generated on:** `2025-04-02 17:44:51`
+🕒 **Generated on:** `2025-04-07 02:00:23`
 
 ## 🔹 **Total Repositories:** `22`
 
 | Repository | Lines of Code |
 |------------|--------------|
+| `CGemini` | **264** |
 | `workflows` | **31** |
 | `ai-terminal` | **174** |
-| `CGemini` | **248** |
 | `focusTube` | **666** |
 | `notes-app` | **351** |
 | `My_Potfolio` | **1167** |
@@ -27,5 +27,4 @@
 | `new.io` | **1220** |
 | `graded_assignment_2` | **103** |
 | `handCricket_Game` | **128** |
-
-## 🏆 **Total Lines Across All Repositories:** `12073`
+## 🏆 **Total Lines Across All Repositories:** `12089`
