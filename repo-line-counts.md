@@ -1,10 +1,12 @@
 # 📊 Repository Line Counts
-🕒 **Generated on:** `2025-05-05 02:06:43`
+🕒 **Generated on:** `2025-05-12 02:07:48`
 
-## 🔹 **Total Repositories:** `22`
+## 🔹 **Total Repositories:** `23`
 
 | Repository | Lines of Code |
 |------------|--------------|
+| `AI_Interviewer` | **337** |
+| `USANJAY05` | **66** |
 | `workflows` | **30** |
 | `CGemini` | **264** |
 | `ai-terminal` | **174** |
@@ -17,7 +19,6 @@
 | `police-hackathon` | **2721** |
 | `react-to-do-list` | **322** |
 | `handCricketGame` | **539** |
-| `USANJAY05` | **18** |
 | `Notes` | **303** |
 | `jbbmo-Introduction-to-Git-and-GitHub` | **253** |
 | `github-final-project` | **34** |
@@ -27,4 +28,4 @@
 | `new.io` | **1220** |
 | `graded_assignment_2` | **103** |
 | `handCricket_Game` | **128** |
-## 🏆 **Total Lines Across All Repositories:** `12088`
+## 🏆 **Total Lines Across All Repositories:** `12473`
