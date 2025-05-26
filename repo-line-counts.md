@@ -1,15 +1,16 @@
 # 📊 Repository Line Counts
-🕒 **Generated on:** `2025-05-19 02:10:18`
+🕒 **Generated on:** `2025-05-26 02:08:54`
 
-## 🔹 **Total Repositories:** `23`
+## 🔹 **Total Repositories:** `24`
 
 | Repository | Lines of Code |
 |------------|--------------|
-| `My_Potfolio` | **1167** |
+| `CGemini` | **264** |
+| `USANJAY05.github.io` | **0** |
 | `workflows` | **31** |
+| `My_Potfolio` | **1167** |
 | `AI_Interviewer` | **337** |
 | `USANJAY05` | **66** |
-| `CGemini` | **264** |
 | `ai-terminal` | **174** |
 | `focusTube` | **666** |
 | `notes-app` | **351** |
