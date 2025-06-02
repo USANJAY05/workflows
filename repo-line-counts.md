@@ -1,13 +1,13 @@
 # 📊 Repository Line Counts
-🕒 **Generated on:** `2025-05-26 02:08:54`
+🕒 **Generated on:** `2025-06-02 02:11:26`
 
 ## 🔹 **Total Repositories:** `24`
 
 | Repository | Lines of Code |
 |------------|--------------|
+| `workflows` | **32** |
 | `CGemini` | **264** |
 | `USANJAY05.github.io` | **0** |
-| `workflows` | **31** |
 | `My_Potfolio` | **1167** |
 | `AI_Interviewer` | **337** |
 | `USANJAY05` | **66** |
@@ -29,4 +29,4 @@
 | `new.io` | **1220** |
 | `graded_assignment_2` | **103** |
 | `handCricket_Game` | **128** |
-## 🏆 **Total Lines Across All Repositories:** `12474`
+## 🏆 **Total Lines Across All Repositories:** `12475`
