@@ -1,22 +1,22 @@
 # 📊 Repository Line Counts
-🕒 **Generated on:** `2025-07-28 02:30:23`
+🕒 **Generated on:** `2025-08-04 02:35:45`
 
 ## 🔹 **Total Repositories:** `25`
 
 | Repository | Lines of Code |
 |------------|--------------|
+| `contact-app` | **1045** |
+| `My_Potfolio` | **1167** |
 | `workflows` | **33** |
 | `ai-terminal` | **479** |
 | `ai-resume-ranker` | **1432** |
 | `CGemini` | **264** |
 | `USANJAY05.github.io` | **0** |
-| `My_Potfolio` | **1167** |
 | `AI_Interviewer` | **337** |
 | `USANJAY05` | **66** |
 | `focusTube` | **666** |
 | `notes-app` | **351** |
 | `chattify` | **221** |
-| `contact-app` | **1045** |
 | `Agent-M-Frontend` | **278** |
 | `police-hackathon` | **2721** |
 | `react-to-do-list` | **322** |
