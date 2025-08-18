@@ -1,12 +1,12 @@
 # 📊 Repository Line Counts
-🕒 **Generated on:** `2025-08-11 02:26:56`
+🕒 **Generated on:** `2025-08-18 02:23:56`
 
 ## 🔹 **Total Repositories:** `26`
 
 | Repository | Lines of Code |
 |------------|--------------|
+| `workflows` | **34** |
 | `skills-introduction-to-github` | **273** |
-| `workflows` | **33** |
 | `contact-app` | **1045** |
 | `My_Potfolio` | **1167** |
 | `ai-terminal` | **479** |
@@ -31,4 +31,4 @@
 | `new.io` | **1220** |
 | `graded_assignment_2` | **103** |
 | `handCricket_Game` | **128** |
-## 🏆 **Total Lines Across All Repositories:** `14486`
+## 🏆 **Total Lines Across All Repositories:** `14487`
