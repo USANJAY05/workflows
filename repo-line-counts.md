@@ -1,12 +1,12 @@
 # 📊 Repository Line Counts
-🕒 **Generated on:** `2025-09-22 02:04:30`
+🕒 **Generated on:** `2025-09-29 01:59:07`
 
 ## 🔹 **Total Repositories:** `27`
 
 | Repository | Lines of Code |
 |------------|--------------|
+| `workflows` | **35** |
 | `skills-copilot-codespaces-vscode` | **0** |
-| `workflows` | **34** |
 | `skills-introduction-to-github` | **273** |
 | `contact-app` | **1045** |
 | `My_Potfolio` | **1167** |
@@ -32,4 +32,4 @@
 | `new.io` | **1220** |
 | `graded_assignment_2` | **103** |
 | `handCricket_Game` | **128** |
-## 🏆 **Total Lines Across All Repositories:** `14487`
+## 🏆 **Total Lines Across All Repositories:** `14488`
