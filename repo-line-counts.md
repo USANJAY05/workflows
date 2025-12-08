@@ -1,14 +1,14 @@
 # 📊 Repository Line Counts
-🕒 **Generated on:** `2025-12-01 02:32:10`
+🕒 **Generated on:** `2025-12-08 02:09:37`
 
 ## 🔹 **Total Repositories:** `28`
 
 | Repository | Lines of Code |
 |------------|--------------|
+| `skills-introduction-to-github` | **273** |
 | `workflows` | **36** |
 | `orderBro` | **5** |
 | `skills-copilot-codespaces-vscode` | **0** |
-| `skills-introduction-to-github` | **273** |
 | `contact-app` | **1045** |
 | `My_Potfolio` | **1167** |
 | `ai-terminal` | **479** |
