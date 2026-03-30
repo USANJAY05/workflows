@@ -1,13 +1,15 @@
 # 📊 Repository Line Counts
-🕒 **Generated on:** `2026-03-23 03:15:42`
+🕒 **Generated on:** `2026-03-30 03:29:47`
 
 ## 🔹 **Total Repositories:** `30`
 
 | Repository | Lines of Code |
 |------------|--------------|
+| `gitpack` | **1422** |
+| `AgentTalk` | **14554** |
 | `agent-talk` | **2484** |
+| `workflows` | **38** |
 | `compliance-management` | **2171** |
-| `workflows` | **36** |
 | `skills-introduction-to-github` | **273** |
 | `orderBro` | **5** |
 | `skills-copilot-codespaces-vscode` | **0** |
@@ -33,6 +35,4 @@
 | `Assessment4` | **51** |
 | `Assessment3` | **175** |
 | `new.io` | **1220** |
-| `graded_assignment_2` | **103** |
-| `handCricket_Game` | **128** |
-## 🏆 **Total Lines Across All Repositories:** `19149`
+## 🏆 **Total Lines Across All Repositories:** `34896`
