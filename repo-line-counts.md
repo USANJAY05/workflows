@@ -1,14 +1,14 @@
 # 📊 Repository Line Counts
-🕒 **Generated on:** `2026-03-30 03:29:47`
+🕒 **Generated on:** `2026-04-06 03:31:59`
 
 ## 🔹 **Total Repositories:** `30`
 
 | Repository | Lines of Code |
 |------------|--------------|
+| `workflows` | **38** |
 | `gitpack` | **1422** |
 | `AgentTalk` | **14554** |
 | `agent-talk` | **2484** |
-| `workflows` | **38** |
 | `compliance-management` | **2171** |
 | `skills-introduction-to-github` | **273** |
 | `orderBro` | **5** |
