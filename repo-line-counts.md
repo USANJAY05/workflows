@@ -1,12 +1,12 @@
 # 📊 Repository Line Counts
-🕒 **Generated on:** `2026-06-15 05:18:35`
+🕒 **Generated on:** `2026-06-22 05:19:29`
 
 ## 🔹 **Total Repositories:** `30`
 
 | Repository | Lines of Code |
 |------------|--------------|
-| `sql_notepad` | **769** |
 | `workflows` | **38** |
+| `sql_notepad` | **769** |
 | `gitpack` | **1422** |
 | `AgentTalk` | **14554** |
 | `agent-talk` | **2484** |
@@ -19,7 +19,6 @@
 | `ai-terminal` | **479** |
 | `ai-resume-ranker` | **1432** |
 | `CGemini` | **264** |
-| `USANJAY05.github.io` | **0** |
 | `AI_Interviewer` | **337** |
 | `USANJAY05` | **66** |
 | `focusTube` | **666** |
@@ -35,4 +34,5 @@
 | `SkillrackReplicate` | **2025** |
 | `Assessment4` | **51** |
 | `Assessment3` | **175** |
-## 🏆 **Total Lines Across All Repositories:** `34445`
+| `new.io` | **1220** |
+## 🏆 **Total Lines Across All Repositories:** `35665`
