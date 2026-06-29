@@ -1,10 +1,11 @@
 # 📊 Repository Line Counts
-🕒 **Generated on:** `2026-06-22 05:19:29`
+🕒 **Generated on:** `2026-06-29 04:50:49`
 
 ## 🔹 **Total Repositories:** `30`
 
 | Repository | Lines of Code |
 |------------|--------------|
+| `auth_app` | **119** |
 | `workflows` | **38** |
 | `sql_notepad` | **769** |
 | `gitpack` | **1422** |
@@ -34,5 +35,4 @@
 | `SkillrackReplicate` | **2025** |
 | `Assessment4` | **51** |
 | `Assessment3` | **175** |
-| `new.io` | **1220** |
-## 🏆 **Total Lines Across All Repositories:** `35665`
+## 🏆 **Total Lines Across All Repositories:** `34564`
