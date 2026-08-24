@@ -1,13 +1,13 @@
 # 📊 Repository Line Counts
-🕒 **Generated on:** `2026-08-17 01:47:03`
+🕒 **Generated on:** `2026-08-24 01:48:50`
 
 ## 🔹 **Total Repositories:** `30`
 
 | Repository | Lines of Code |
 |------------|--------------|
-| `cooking-compass` | **2** |
-| `pr_agent` | **199** |
+| `cooking-compass` | **4783** |
 | `workflows` | **38** |
+| `pr_agent` | **199** |
 | `contact_api` | **36** |
 | `ai-resume-ranker` | **1432** |
 | `auth_app` | **119** |
@@ -35,4 +35,4 @@
 | `Notes` | **303** |
 | `jbbmo-Introduction-to-Git-and-GitHub` | **253** |
 | `github-final-project` | **34** |
-## 🏆 **Total Lines Across All Repositories:** `32550`
+## 🏆 **Total Lines Across All Repositories:** `37331`
