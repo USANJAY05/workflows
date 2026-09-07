@@ -1,12 +1,17 @@
 # 📊 Repository Line Counts
-🕒 **Generated on:** `2026-08-31 05:16:03`
+🕒 **Generated on:** `2026-09-07 04:18:06`
 
 ## 🔹 **Total Repositories:** `30`
 
 | Repository | Lines of Code |
 |------------|--------------|
-| `cooking_compass_mobile` | **3155** |
-| `cooking-compass` | **7660** |
+| `cooking-compass-web` | **711** |
+| `USANJAY05` | **187** |
+| `It-management` | **4** |
+| `testing` | **167** |
+| `cooking-compass` | **9464** |
+| `cooking-compass-etl` | **674** |
+| `cooking_compass_mobile` | **4205** |
 | `workflows` | **38** |
 | `pr_agent` | **199** |
 | `contact_api` | **36** |
@@ -25,14 +30,9 @@
 | `ai-terminal` | **479** |
 | `CGemini` | **264** |
 | `AI_Interviewer` | **337** |
-| `USANJAY05` | **66** |
 | `focusTube` | **666** |
 | `notes-app` | **351** |
 | `chattify` | **221** |
 | `Agent-M-Frontend` | **278** |
 | `police-hackathon` | **2721** |
-| `react-to-do-list` | **322** |
-| `handCricketGame` | **539** |
-| `Notes` | **303** |
-| `jbbmo-Introduction-to-Git-and-GitHub` | **253** |
-## 🏆 **Total Lines Across All Repositories:** `43329`
+## 🏆 **Total Lines Across All Repositories:** `46443`
