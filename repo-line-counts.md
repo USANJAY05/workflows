@@ -1,18 +1,18 @@
 # 📊 Repository Line Counts
-🕒 **Generated on:** `2026-09-07 04:18:06`
+🕒 **Generated on:** `2026-09-14 04:39:11`
 
 ## 🔹 **Total Repositories:** `30`
 
 | Repository | Lines of Code |
 |------------|--------------|
-| `cooking-compass-web` | **711** |
+| `cooking-compass` | **9476** |
+| `cooking-compass-web` | **760** |
+| `workflows` | **38** |
 | `USANJAY05` | **187** |
 | `It-management` | **4** |
 | `testing` | **167** |
-| `cooking-compass` | **9464** |
 | `cooking-compass-etl` | **674** |
 | `cooking_compass_mobile` | **4205** |
-| `workflows` | **38** |
 | `pr_agent` | **199** |
 | `contact_api` | **36** |
 | `ai-resume-ranker` | **1432** |
@@ -35,4 +35,4 @@
 | `chattify` | **221** |
 | `Agent-M-Frontend` | **278** |
 | `police-hackathon` | **2721** |
-## 🏆 **Total Lines Across All Repositories:** `46443`
+## 🏆 **Total Lines Across All Repositories:** `46504`
