@@ -1,14 +1,16 @@
 # 📊 Repository Line Counts
-🕒 **Generated on:** `2026-09-21 04:39:39`
+🕒 **Generated on:** `2026-09-28 05:07:22`
 
 ## 🔹 **Total Repositories:** `30`
 
 | Repository | Lines of Code |
 |------------|--------------|
+| `USANJAY05` | **187** |
+| `com-frontend-test` | **1931** |
+| `crm-backend-test` | **31849** |
+| `workflows` | **38** |
 | `cooking-compass` | **9476** |
 | `cooking-compass-web` | **767** |
-| `workflows` | **38** |
-| `USANJAY05` | **187** |
 | `It-management` | **4** |
 | `testing` | **167** |
 | `cooking-compass-etl` | **674** |
@@ -33,6 +35,4 @@
 | `focusTube` | **666** |
 | `notes-app` | **351** |
 | `chattify` | **221** |
-| `Agent-M-Frontend` | **278** |
-| `police-hackathon` | **2721** |
-## 🏆 **Total Lines Across All Repositories:** `46511`
+## 🏆 **Total Lines Across All Repositories:** `77292`
