@@ -1,14 +1,14 @@
 # 📊 Repository Line Counts
-🕒 **Generated on:** `2026-09-28 05:07:22`
+🕒 **Generated on:** `2026-10-05 05:20:27`
 
 ## 🔹 **Total Repositories:** `30`
 
 | Repository | Lines of Code |
 |------------|--------------|
+| `workflows` | **38** |
 | `USANJAY05` | **187** |
 | `com-frontend-test` | **1931** |
 | `crm-backend-test` | **31849** |
-| `workflows` | **38** |
 | `cooking-compass` | **9476** |
 | `cooking-compass-web` | **767** |
 | `It-management` | **4** |
