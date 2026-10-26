@@ -1,13 +1,14 @@
 # 📊 Repository Line Counts
-🕒 **Generated on:** `2026-10-19 04:23:01`
+🕒 **Generated on:** `2026-10-26 04:26:49`
 
 ## 🔹 **Total Repositories:** `30`
 
 | Repository | Lines of Code |
 |------------|--------------|
+| `job-seeker` | **0** |
+| `workflows` | **38** |
 | `tcl-traders` | **787** |
 | `Supabase-login` | **0** |
-| `workflows` | **38** |
 | `USANJAY05` | **187** |
 | `com-frontend-test` | **1931** |
 | `crm-backend-test` | **31849** |
@@ -34,5 +35,4 @@
 | `ai-terminal` | **479** |
 | `CGemini` | **264** |
 | `AI_Interviewer` | **337** |
-| `focusTube` | **666** |
-## 🏆 **Total Lines Across All Repositories:** `77507`
+## 🏆 **Total Lines Across All Repositories:** `76841`
