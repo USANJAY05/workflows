@@ -1,18 +1,18 @@
 # 📊 Repository Line Counts
-🕒 **Generated on:** `2026-11-02 05:43:47`
+🕒 **Generated on:** `2026-11-09 05:56:27`
 
 ## 🔹 **Total Repositories:** `30`
 
 | Repository | Lines of Code |
 |------------|--------------|
-| `maya-voice-studio` | **460** |
+| `job-seeker` | **2191** |
+| `cooking-compass` | **9625** |
 | `workflows` | **38** |
-| `job-seeker` | **0** |
+| `maya-voice-studio` | **460** |
 | `tcl-traders` | **787** |
 | `USANJAY05` | **187** |
 | `com-frontend-test` | **1931** |
 | `crm-backend-test` | **31849** |
-| `cooking-compass` | **9476** |
 | `cooking-compass-web` | **767** |
 | `It-management` | **4** |
 | `cooking-compass-etl` | **674** |
@@ -35,4 +35,4 @@
 | `notes-app` | **351** |
 | `chattify` | **221** |
 | `Agent-M-Frontend` | **278** |
-## 🏆 **Total Lines Across All Repositories:** `61612`
+## 🏆 **Total Lines Across All Repositories:** `63952`
